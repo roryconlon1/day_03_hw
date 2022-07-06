@@ -47,3 +47,16 @@ def number_to_short_month_name( month):
     elif month == 10:
         return "Oct"        
 
+
+
+def multiply(*args):
+    product = 1
+    for item in args:
+        product *= item
+    return product
+
+def backwards(string):
+    return string[::-1]
+
+def convert(temperature):
+    return (temperature - 32)*(5/9)
