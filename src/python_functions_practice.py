@@ -40,3 +40,10 @@ def number_to_full_month_name( month):
 def number_to_short_month_name( month):
     if month == 1:
         return "Jan"        
+
+    elif month == 4:
+        return "Apr"
+
+    elif month == 10:
+        return "Oct"        
+
